@@ -60,7 +60,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yj-Eo-Na6">
-                                        <rect key="frame" x="0.0" y="123" width="320" height="216"/>
+                                        <rect key="frame" x="0.0" y="122.5" width="320" height="216"/>
                                     </pickerView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="m3H-7q-Tsg">
                                         <rect key="frame" x="72" y="440.5" width="176.5" height="31"/>
@@ -261,7 +261,7 @@
                                                         <rect key="frame" x="285" y="0.0" width="109" height="30"/>
                                                         <state key="normal" title="Change"/>
                                                         <connections>
-                                                            <segue destination="TX4-kB-lNt" kind="show" id="ena-Hv-aHV"/>
+                                                            <segue destination="TX4-kB-lNt" kind="show" identifier="segueContactDate" id="ena-Hv-aHV"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -317,7 +317,7 @@
         <!--Birthdate-->
         <scene sceneID="4b1-um-8ec">
             <objects>
-                <viewController title="Birthdate" id="TX4-kB-lNt" sceneMemberID="viewController">
+                <viewController title="Birthdate" id="TX4-kB-lNt" customClass="DateViewController" customModule="My_Contact_list" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="T7b-QB-vJp"/>
                         <viewControllerLayoutGuide type="bottom" id="VG7-NW-cZI"/>
@@ -338,6 +338,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Lfu-dJ-0MV"/>
+                    <connections>
+                        <outlet property="dtpDate" destination="uBf-6b-Qhh" id="BtM-7k-uM8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZCq-wW-NA4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
