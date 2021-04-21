@@ -10,6 +10,7 @@
 		040528C026268D5B00EC4338 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040528BF26268D5B00EC4338 /* Constants.swift */; };
 		040528C6262692DB00EC4338 /* MyContactListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040528C4262692DB00EC4338 /* MyContactListModel.xcdatamodeld */; };
 		0451472826269A4B0098FE21 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451472726269A4B0098FE21 /* DateViewController.swift */; };
+		04638199263086A700BA2C54 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04638198263086A700BA2C54 /* ContactsTableViewController.swift */; };
 		BBA90200261BF88E00AA9195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA901FF261BF88E00AA9195 /* AppDelegate.swift */; };
 		BBA90202261BF88E00AA9195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA90201261BF88E00AA9195 /* SceneDelegate.swift */; };
 		BBA90204261BF88E00AA9195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA90203261BF88E00AA9195 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		040528BF26268D5B00EC4338 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		040528C5262692DB00EC4338 /* MyContactListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactListModel.xcdatamodel; sourceTree = "<group>"; };
 		0451472726269A4B0098FE21 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		04638198263086A700BA2C54 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		BBA901FC261BF88E00AA9195 /* My Contact list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Contact list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA901FF261BF88E00AA9195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA90201261BF88E00AA9195 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				BBA90201261BF88E00AA9195 /* SceneDelegate.swift */,
 				BBA90203261BF88E00AA9195 /* ViewController.swift */,
 				BBA90205261BF88E00AA9195 /* Main.storyboard */,
+				04638198263086A700BA2C54 /* ContactsTableViewController.swift */,
 				BBA90208261BF88F00AA9195 /* Assets.xcassets */,
 				BBA9020D261BF88F00AA9195 /* Info.plist */,
 				BBA90235261D452800AA9195 /* ContactsViewController.swift */,
@@ -274,6 +277,7 @@
 			files = (
 				BBA90204261BF88E00AA9195 /* ViewController.swift in Sources */,
 				BBA90236261D452800AA9195 /* ContactsViewController.swift in Sources */,
+				04638199263086A700BA2C54 /* ContactsTableViewController.swift in Sources */,
 				BBA90200261BF88E00AA9195 /* AppDelegate.swift in Sources */,
 				BBA9023B261D454100AA9195 /* MapViewController.swift in Sources */,
 				040528C026268D5B00EC4338 /* Constants.swift in Sources */,
