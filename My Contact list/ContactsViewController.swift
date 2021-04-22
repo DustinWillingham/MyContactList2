@@ -84,17 +84,13 @@ class ContactsViewController: UIViewController, UITextFieldDelegate, DateControl
             txtPhone.text = currentContact!.phoneNumber
             txtCell.text = currentContact!.cellNumber
             txtEmail.text = currentContact!.email
-            let formatter = DateFormatter ()
+            let formatter = DateFormatter()
             formatter.dateStyle = .short
             if currentContact!.birthday != nil {
-                lblBirthdate.text = formatter.string(from: currentContact!.birthday as! Date)
+                lblBirthdate.text = formatter.string(from: currentContact!.birthday!)
             }
         }
-        
-        
-        
-        
-        
+
         self.changeEditMode(self)
         let textFields: [UITextField] = [txtName, txtAddress, txtCity, txtState, txtZip,
                                          txtPhone, txtCell, txtEmail]
